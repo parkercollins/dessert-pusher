@@ -26,5 +26,3 @@ class PusherApplication : Application() {
         Timber.plant(Timber.DebugTree())
     }
 }
-
-// TODO (04) In the PusherApplication class, initialize Timber by planting a Tree
