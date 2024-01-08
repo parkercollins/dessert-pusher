@@ -153,7 +153,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         return super.onOptionsItemSelected(item)
     }
 
-    // TODO (02) Override the onStart lifecycle method and add an info level log statement
+    /** Lifecycle Methods **/
 
     override fun onStart() {
         super.onStart()
