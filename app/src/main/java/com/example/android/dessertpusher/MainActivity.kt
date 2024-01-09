@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         }
 
         // TODO (04) Pass in 'this' MainActivity's lifecycle so that it is observed
-        // Setup dessertTimer
+        // Setup dessertTimer, passing in the lifecycle
         dessertTimer = DessertTimer(this.lifecycle)
 
         // Set the TextViews to the right values
@@ -167,6 +167,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         super.onResume()
         Timber.i("onResume Called")
     }
+
     override fun onPause() {
         super.onPause()
         Timber.i("onPause Called")
